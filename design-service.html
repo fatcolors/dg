@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Design Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{--ink:#16161f;--muted:#6b6b7c;--accent:#5546ff;--line:#e7e7f0;--soft:#f5f5fb;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);
+    background:#ececf3;line-height:1.6;-webkit-font-smoothing:antialiased;padding:40px 16px;}
+  .sheet{max-width:1500px;margin:0 auto;background:#fff;padding:48px 64px;border-radius:14px;
+    box-shadow:0 10px 40px rgba(20,20,40,.1);column-count:2;column-gap:64px;}
+  header.top{border-bottom:2px solid var(--line);padding-bottom:24px;}
+  .gem{display:inline-block;width:22px;height:22px;border-radius:6px;vertical-align:-4px;
+    background:linear-gradient(135deg,#5546ff,#8b7bff);transform:rotate(45deg);margin-right:8px;}
+  header.top h1{font-size:30px;font-weight:800;letter-spacing:-.02em;}
+  header.top p{color:var(--muted);margin-top:8px;font-size:15px;}
+  .legend{font-size:13px;color:var(--muted);margin-top:14px;background:var(--soft);
+    border:1px solid var(--line);border-radius:10px;padding:12px 16px;}
+  .legend b{color:var(--ink);}
+  .item{padding:18px 0;border-bottom:1px solid var(--line);page-break-inside:avoid;
+    break-inside:avoid;-webkit-column-break-inside:avoid;}
+  .item:first-child{padding-top:0;}
+  .num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;
+    background:var(--accent);color:#fff;font-weight:800;font-size:14px;margin-right:12px;vertical-align:middle;}
+  .item h2{display:inline;font-size:23px;font-weight:700;letter-spacing:-.01em;vertical-align:middle;}
+  .screen{margin:14px 0 14px 42px;font-size:13px;font-weight:600;color:var(--accent);
+    text-transform:uppercase;letter-spacing:.08em;}
+  .screen span{color:var(--muted);font-weight:500;text-transform:none;letter-spacing:0;}
+  .say{margin-left:42px;font-size:18px;line-height:1.62;color:#2a2a36;}
+  @media print{body{background:#fff;padding:0;}.sheet{box-shadow:none;border-radius:0;max-width:none;padding:24px 32px;}
+    .item{padding:18px 0;}.no-print{display:none;}}
+  .no-print{text-align:center;margin:24px auto 0;max-width:820px;color:#6b6b7c;font-size:13px;}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="item">
+    <span class="num">1</span><h2>From chaos to clarity</h2>
+    <p class="say">DataGEMS is an AI data discovery platform that I designed from scratch. I chose this project because the hardest part was not the design. It was getting a very large, spread-out team to agree on the shape and structure of the system. I will spend one minute on the product, and the rest of the time on how I worked in this project — from research to hand-off.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">2</span><h2>What is DataGEMS?</h2>
+    <p class="say">DataGEMS helps people find and explore datasets. You can search for data in plain language, without writing complicated queries. Our end users are scientist but the platform will be available to all researchers. The problem it solves is simple: data is scattered everywhere and hard to find. It is an EU research project, built by many universities across Europe — so it was big and complex from day one.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">3</span><h2>One vision, many teams</h2>
+    <p class="say">I was the only designer, and I was responsible for the whole product. There were more than 70 people from different countries in Europe involved. Each team built a different part, and each team wanted something different. So my main job was not drawing screens. It was alignment — talking to every team, learning what they really needed, and bringing it all into one clear vision.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">4</span><h2>Research — listening, then aligning</h2>
+    <p class="say">I started with research, but a special kind: I listened to the teams to get them all on the same page and align their expectations. I met each group to learn what they truly needed. Then I mapped where the needs matched, where there were gaps, and where they did not agree. I took all of this and turned it into one clear, ranked list of priorities. That gave everyone a single plan to design and build from.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">5</span><h2>Mapping a shorter path</h2>
+    <p class="say">From those priorities, I built user-flow diagrams. They covered search, data profiling, and the AI recommendations. The flows helped everyone agree on how the product should work, before we designed any screens. And I kept improving them to remove extra steps. Fewer steps mean less friction, and a faster way to reach the right data.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">6</span><h2>Fast, simple decisions</h2>
+    <p class="say">Next I made simple, low-detail wireframes. I kept them rough on purpose. The goal here was the layout and the main actions, not the visuals. That helped us make the big decisions early, before anyone got attached to a polished design.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">7</span><h2>A clickable vision</h2>
+    <p class="say">Then I turned the wireframes into a clickable prototype. This was the best tool for alignment on the whole project. Instead of arguing about ideas, people could click through a real product and react to it. This showed us problems early — while they were still easy and cheap to fix, and before any code was written.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">8</span><h2>A guide devs can build from</h2>
+    <p class="say">For the developers, I prepared a clear style guide, with all the flows, screens, and components documented. I also designed every screen for all sizes, from large desktop down to mobile. And for each new feature, I recorded a short video showing how it works. I shared these videos with the whole team, from scientists to developers, to keep everyone on the same page.</p>
+  </div>
+
+  <div class="item">
+    <span class="num">9</span><h2>A build-ready product</h2>
+    <p class="say">The result was a working app, ready for its users. Because the documents were clear and the big decisions were made early, the build was faster and had fewer errors. My main lesson: in a large team, clarity is the real deliverable — often more than any single screen and good documentation is simply design that scales.</p>
+  </div>
+
+  <div class="item" style="border-bottom:none;">
+    <span class="num">10</span><h2>Thank you.</h2>
+    <p class="say">That is DataGEMS — from a messy, multi-team start to a clear, build-ready product. Thank you for your time. I am happy to go deeper into any part — the alignment, the flows, or the design decisions — and of course, happy to answer your questions.</p>
+  </div>
+</div>
+<p class="no-print"></p>
+</body>
+</html>
